@@ -1,0 +1,1202 @@
+[
+    {
+      "phase": "Terra Mission Overview",
+      "question": "What is the launch date of NASA's Terra satellite?",
+      "options": [
+        "A) December 18, 1999",
+        "B) January 1, 2000",
+        "C) November 15, 1998",
+        "D) February 24, 2000"
+      ],
+      "correct": "A",
+      "explanation": "Terra was launched on December 18, 1999, from Vandenberg Air Force Base."
+    },
+    {
+      "phase": "Terra Mission Overview",
+      "question": "What is the primary objective of the Terra mission?",
+      "options": [
+        "A) Study Mars' atmosphere",
+        "B) Understand Earth's climate and environmental changes",
+        "C) Explore the Moon's surface",
+        "D) Monitor space debris"
+      ],
+      "correct": "B",
+      "explanation": "Terra explores connections between Earth's atmosphere, land, snow and ice, ocean, and energy balance to understand climate."
+    },
+    {
+      "phase": "Terra Mission Overview",
+      "question": "How many instruments are on the Terra satellite?",
+      "options": [
+        "A) 3",
+        "B) 5",
+        "C) 7",
+        "D) 4"
+      ],
+      "correct": "B",
+      "explanation": "Terra has five instruments: MODIS, ASTER, CERES, MISR, and MOPITT."
+    },
+    {
+      "phase": "Terra Mission Overview",
+      "question": "What orbit does Terra follow?",
+      "options": [
+        "A) Geostationary",
+        "B) Sun-synchronous polar",
+        "C) Low Earth elliptical",
+        "D) Lunar orbit"
+      ],
+      "correct": "B",
+      "explanation": "Terra is in a sun-synchronous polar orbit at 705 km altitude."
+    },
+    {
+      "phase": "Terra Mission Overview",
+      "question": "What is Terra's nickname in the EOS program?",
+      "options": [
+        "A) The Flagship",
+        "B) The Observer",
+        "C) The Explorer",
+        "D) The Sentinel"
+      ],
+      "correct": "A",
+      "explanation": "Terra is the flagship of NASA's Earth Observing System (EOS)."
+    },
+    {
+      "phase": "Terra Mission Overview",
+      "question": "Approximately how many data products does Terra produce?",
+      "options": [
+        "A) 50",
+        "B) Nearly 100",
+        "C) 200",
+        "D) 20"
+      ],
+      "correct": "B",
+      "explanation": "Terra produces nearly 100 data products from its instruments."
+    },
+    {
+      "phase": "Terra Mission Overview",
+      "question": "Which Earth systems does Terra study?",
+      "options": [
+        "A) Only atmosphere",
+        "B) Atmosphere, land, ocean, cryosphere, energy budget",
+        "C) Only oceans",
+        "D) Space weather"
+      ],
+      "correct": "B",
+      "explanation": "Terra studies atmosphere, land, snow/ice, ocean, and energy balance."
+    },
+    {
+      "phase": "Terra Mission Overview",
+      "question": "What year did Terra celebrate 25 years in orbit?",
+      "options": [
+        "A) 2024",
+        "B) 2025",
+        "C) 2023",
+        "D) 2020"
+      ],
+      "correct": "A",
+      "explanation": "Terra launched in 1999, so 25 years in 2024."
+    },
+    {
+      "phase": "Terra Mission Overview",
+      "question": "What is the weight of Terra at launch?",
+      "options": [
+        "A) 5,190 kg",
+        "B) 3,000 kg",
+        "C) 10,000 kg",
+        "D) 1,000 kg"
+      ],
+      "correct": "A",
+      "explanation": "Terra weighed 5,190 kg at launch."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "Which agency funded the MOPITT instrument?",
+      "options": [
+        "A) ESA",
+        "B) Canadian Space Agency",
+        "C) JAXA",
+        "D) NASA"
+      ],
+      "correct": "B",
+      "explanation": "MOPITT was funded by the Canadian Space Agency."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What does MODIS stand for?",
+      "options": [
+        "A) Moderate Resolution Imaging Spectroradiometer",
+        "B) Multi-Directional Optical Detection System",
+        "C) Modular Orbital Data Imaging Sensor",
+        "D) Medium Range Observation Device for Satellites"
+      ],
+      "correct": "A",
+      "explanation": "MODIS is Moderate Resolution Imaging Spectroradiometer."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "How many spectral bands does MODIS acquire data in?",
+      "options": [
+        "A) 20",
+        "B) 36",
+        "C) 10",
+        "D) 50"
+      ],
+      "correct": "B",
+      "explanation": "MODIS acquires data in 36 spectral bands."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "How often does MODIS view the entire Earth's surface?",
+      "options": [
+        "A) Every day",
+        "B) Every 1 to 2 days",
+        "C) Weekly",
+        "D) Monthly"
+      ],
+      "correct": "B",
+      "explanation": "MODIS views Earth's surface every 1 to 2 days."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What does MODIS help understand?",
+      "options": [
+        "A) Global dynamics on land, oceans, atmosphere",
+        "B) Deep space phenomena",
+        "C) Lunar geology",
+        "D) Solar flares"
+      ],
+      "correct": "A",
+      "explanation": "MODIS improves understanding of global dynamics in land, oceans, and lower atmosphere."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "On which satellites is MODIS aboard?",
+      "options": [
+        "A) Only Terra",
+        "B) Terra and Aqua",
+        "C) Hubble and Terra",
+        "D) ISS and Terra"
+      ],
+      "correct": "B",
+      "explanation": "MODIS is on both Terra and Aqua satellites."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What time does Terra cross the equator?",
+      "options": [
+        "A) Morning, north to south",
+        "B) Afternoon, south to north",
+        "C) Midnight",
+        "D) Dawn"
+      ],
+      "correct": "A",
+      "explanation": "Terra crosses from north to south in the morning."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What is a key role of MODIS in Earth system models?",
+      "options": [
+        "A) Predicting global change",
+        "B) Mapping asteroids",
+        "C) Tracking satellites",
+        "D) Studying black holes"
+      ],
+      "correct": "A",
+      "explanation": "MODIS helps develop models to predict global change."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "Which MODIS data product includes vegetation indices?",
+      "options": [
+        "A) Aerosol properties",
+        "B) Vegetation indices (NDVI)",
+        "C) Cloud mask",
+        "D) Sea surface temperature"
+      ],
+      "correct": "B",
+      "explanation": "MODIS provides vegetation indices like NDVI."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What is MODIS used for in fire detection?",
+      "options": [
+        "A) Detecting active fires",
+        "B) Measuring wind speed",
+        "C) Tracking ocean currents",
+        "D) Observing stars"
+      ],
+      "correct": "A",
+      "explanation": "MODIS is used for global fire detection."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "How does MODIS contribute to ocean studies?",
+      "options": [
+        "A) Measuring chlorophyll",
+        "B) Tracking ships",
+        "C) Studying deep sea vents",
+        "D) Mapping underwater mountains"
+      ],
+      "correct": "A",
+      "explanation": "MODIS measures ocean color for chlorophyll and productivity."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What resolution does MODIS have for some bands?",
+      "options": [
+        "A) 250m",
+        "B) 1km",
+        "C) 500m",
+        "D) All of the above"
+      ],
+      "correct": "D",
+      "explanation": "MODIS resolutions vary: 250m, 500m, 1km."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What is one application of MODIS data?",
+      "options": [
+        "A) Weather forecasting",
+        "B) Alien detection",
+        "C) Time travel",
+        "D) Quantum computing"
+      ],
+      "correct": "A",
+      "explanation": "MODIS data aids in weather and climate forecasting."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "Which instrument works with MODIS for cloud data?",
+      "options": [
+        "A) CERES",
+        "B) ASTER",
+        "C) MISR",
+        "D) MOPITT"
+      ],
+      "correct": "A",
+      "explanation": "CERES uses MODIS for cloud properties."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What does MODIS measure in the atmosphere?",
+      "options": [
+        "A) Aerosols",
+        "B) Gravity",
+        "C) Magnetic fields",
+        "D) Radio waves"
+      ],
+      "correct": "A",
+      "explanation": "MODIS measures aerosol properties."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "How has MODIS contributed to disaster response?",
+      "options": [
+        "A) Monitoring floods",
+        "B) Predicting earthquakes",
+        "C) Controlling volcanoes",
+        "D) Stopping hurricanes"
+      ],
+      "correct": "A",
+      "explanation": "MODIS monitors floods, fires, and other disasters."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What is a key MODIS discovery?",
+      "options": [
+        "A) Seasonal vegetation changes",
+        "B) New planets",
+        "C) Black holes",
+        "D) Time dilation"
+      ],
+      "correct": "A",
+      "explanation": "MODIS tracks seasonal greenness and vegetation changes."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "Which band is used for land cover in MODIS?",
+      "options": [
+        "A) Visible and NIR",
+        "B) UV",
+        "C) X-ray",
+        "D) Gamma"
+      ],
+      "correct": "A",
+      "explanation": "Visible and near-infrared bands for land cover."
+    },
+    {
+      "phase": "MODIS – Daily Global Imaging",
+      "question": "What is the swath width of MODIS?",
+      "options": [
+        "A) 2330 km",
+        "B) 1000 km",
+        "C) 500 km",
+        "D) 3000 km"
+      ],
+      "correct": "A",
+      "explanation": "MODIS has a 2330 km swath for global coverage."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What does ASTER stand for?",
+      "options": [
+        "A) Advanced Spaceborne Thermal Emission and Reflection Radiometer",
+        "B) Atmospheric Sounding Terrestrial Emission Radar",
+        "C) Astro Satellite Thermal Energy Recorder",
+        "D) Advanced Spectral Terrestrial Exploration Radiometer"
+      ],
+      "correct": "A",
+      "explanation": "ASTER is Advanced Spaceborne Thermal Emission and Reflection Radiometer."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "How many subsystems does ASTER have?",
+      "options": [
+        "A) 2",
+        "B) 3",
+        "C) 4",
+        "D) 1"
+      ],
+      "correct": "B",
+      "explanation": "ASTER has VNIR, SWIR, TIR subsystems."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What is the resolution of VNIR in ASTER?",
+      "options": [
+        "A) 15 m",
+        "B) 30 m",
+        "C) 90 m",
+        "D) 10 m"
+      ],
+      "correct": "A",
+      "explanation": "VNIR has 15 m resolution."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "How many spectral bands in ASTER SWIR?",
+      "options": [
+        "A) 3",
+        "B) 6",
+        "C) 5",
+        "D) 4"
+      ],
+      "correct": "B",
+      "explanation": "SWIR has 6 bands."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What does ASTER TIR measure?",
+      "options": [
+        "A) Thermal infrared",
+        "B) Visible light",
+        "C) Ultraviolet",
+        "D) Microwave"
+      ],
+      "correct": "A",
+      "explanation": "TIR measures thermal infrared at 90 m resolution."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What capability does ASTER VNIR have for stereo?",
+      "options": [
+        "A) Backward-looking telescope",
+        "B) Side-looking radar",
+        "C) Forward scanner",
+        "D) None"
+      ],
+      "correct": "A",
+      "explanation": "VNIR has a backward telescope for stereo observations."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What is ASTER used for in volcanology?",
+      "options": [
+        "A) Monitoring eruptions",
+        "B) Predicting earthquakes",
+        "C) Measuring ocean depth",
+        "D) Tracking asteroids"
+      ],
+      "correct": "A",
+      "explanation": "ASTER monitors volcanic activity with thermal data."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What data product does ASTER provide?",
+      "options": [
+        "A) Digital Elevation Models (DEM)",
+        "B) Gravity maps",
+        "C) Magnetic fields",
+        "D) Sound waves"
+      ],
+      "correct": "A",
+      "explanation": "ASTER provides DEMs from stereo images."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "Which company built ASTER VNIR?",
+      "options": [
+        "A) Japanese companies",
+        "B) NASA",
+        "C) ESA",
+        "D) Boeing"
+      ],
+      "correct": "A",
+      "explanation": "ASTER subsystems were built by Japanese companies."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What is the cross-track pointing for ASTER VNIR?",
+      "options": [
+        "A) Up to 24 degrees",
+        "B) 8.55 degrees",
+        "C) 90 degrees",
+        "D) 0 degrees"
+      ],
+      "correct": "A",
+      "explanation": "VNIR can point up to 24 degrees cross-track."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "How is ASTER TIR calibrated?",
+      "options": [
+        "A) Internal black body",
+        "B) Solar reflection",
+        "C) Ground stations",
+        "D) Lunar observation"
+      ],
+      "correct": "A",
+      "explanation": "TIR uses an internal black body for calibration."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What is a key application of ASTER?",
+      "options": [
+        "A) Urban heat islands",
+        "B) Space exploration",
+        "C) Deep sea mapping",
+        "D) Air traffic control"
+      ],
+      "correct": "A",
+      "explanation": "ASTER models urban heat islands with thermal data."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "How many bands in ASTER TIR?",
+      "options": [
+        "A) 3",
+        "B) 6",
+        "C) 5",
+        "D) 4"
+      ],
+      "correct": "C",
+      "explanation": "TIR has 5 bands."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What is the data rate for ASTER VNIR?",
+      "options": [
+        "A) 62 Mbps",
+        "B) 23 Mbps",
+        "C) 4.2 Mbps",
+        "D) 100 Mbps"
+      ],
+      "correct": "A",
+      "explanation": "VNIR data rate is 62 Mbps when all bands active."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What is ASTER's resolution for SWIR?",
+      "options": [
+        "A) 15 m",
+        "B) 30 m",
+        "C) 90 m",
+        "D) 60 m"
+      ],
+      "correct": "B",
+      "explanation": "SWIR has 30 m resolution."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "Which subsystem has whiskbroom scanning?",
+      "options": [
+        "A) VNIR",
+        "B) SWIR",
+        "C) TIR",
+        "D) All"
+      ],
+      "correct": "C",
+      "explanation": "TIR uses whiskbroom scanning mirror."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "What is ASTER's contribution to land studies?",
+      "options": [
+        "A) Surface emissivity",
+        "B) Atmospheric pressure",
+        "C) Wind speed",
+        "D) Ocean salinity"
+      ],
+      "correct": "A",
+      "explanation": "ASTER measures land surface emissivity."
+    },
+    {
+      "phase": "ASTER – High-Resolution Imaging",
+      "question": "When did ASTER VNIR resume data collection?",
+      "options": [
+        "A) January 17, 2025",
+        "B) February 4, 2025",
+        "C) April 9, 2025",
+        "D) December 18, 1999"
+      ],
+      "correct": "A",
+      "explanation": "VNIR resumed on January 17, 2025."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What does CERES stand for?",
+      "options": [
+        "A) Clouds and the Earth's Radiant Energy System",
+        "B) Climate Energy Radiation Emission Sensor",
+        "C) Cosmic Earth Radiation Exploration System",
+        "D) Cloud Emission Radar Energy Scanner"
+      ],
+      "correct": "A",
+      "explanation": "CERES is Clouds and the Earth's Radiant Energy System."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What does CERES measure?",
+      "options": [
+        "A) Earth's radiation budget",
+        "B) Soil moisture",
+        "C) Wind patterns",
+        "D) Ocean depths"
+      ],
+      "correct": "A",
+      "explanation": "CERES measures Earth's energy budget and radiation fluxes."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What is Earth's Energy Imbalance (EEI) according to CERES?",
+      "options": [
+        "A) Approximately 0.7 Wm^-2",
+        "B) 2.0 Wm^-2",
+        "C) 0.1 Wm^-2",
+        "D) 5.0 Wm^-2"
+      ],
+      "correct": "A",
+      "explanation": "EEI is about 0.7 Wm^-2, with 93% stored in oceans."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What instruments does CERES synergize with?",
+      "options": [
+        "A) MODIS and VIIRS",
+        "B) ASTER and MISR",
+        "C) MOPITT and RADAR",
+        "D) LIDAR and SONAR"
+      ],
+      "correct": "A",
+      "explanation": "CERES uses MODIS and VIIRS for cloud and aerosol data."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What is FLASHFlux?",
+      "options": [
+        "A) Rapid surface solar irradiance data",
+        "B) Flash flood prediction",
+        "C) Lightning detection",
+        "D) Solar flare monitoring"
+      ],
+      "correct": "A",
+      "explanation": "FLASHFlux provides surface solar flux within 5-7 days."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What are cloud radiative effects (CRE) studied by CERES?",
+      "options": [
+        "A) Shortwave and longwave",
+        "B) Only shortwave",
+        "C) Only longwave",
+        "D) Microwave"
+      ],
+      "correct": "A",
+      "explanation": "CERES studies shortwave and longwave CRE."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "How does CERES help in agriculture?",
+      "options": [
+        "A) Crop maturation and irrigation",
+        "B) Pest control",
+        "C) Soil plowing",
+        "D) Harvesting"
+      ],
+      "correct": "A",
+      "explanation": "CERES data aids in crop and irrigation decisions."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What is ADRE in CERES context?",
+      "options": [
+        "A) Aerosol Direct Radiative Effect",
+        "B) Atmospheric Density Ratio Estimate",
+        "C) Air Density Radiation Energy",
+        "D) Aerosol Detection Radar Equipment"
+      ],
+      "correct": "A",
+      "explanation": "CERES tracks Aerosol Direct Radiative Effect."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "For what period is CERES clear-sky SW ADRE data?",
+      "options": [
+        "A) 2001-2015",
+        "B) 1999-2000",
+        "C) 2016-2020",
+        "D) 1980-1990"
+      ],
+      "correct": "A",
+      "explanation": "Clear-sky SW ADRE for 2001-2015."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What feedback parameters does CERES evaluate in models?",
+      "options": [
+        "A) Water vapor, snow/ice, cloud",
+        "B) Gravity, magnetism",
+        "C) Sound, light",
+        "D) Taste, smell"
+      ],
+      "correct": "A",
+      "explanation": "CERES evaluates climate feedbacks like water vapor and cloud."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "Where is planetary heat uptake increasing according to CERES?",
+      "options": [
+        "A) Since 2000",
+        "B) Since 1900",
+        "C) Since 1950",
+        "D) Since 2010"
+      ],
+      "correct": "A",
+      "explanation": "Heat uptake increasing since 2000."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What role do clouds play in CERES studies?",
+      "options": [
+        "A) Affect energy budget",
+        "B) Block satellites",
+        "C) Create rain",
+        "D) Form stars"
+      ],
+      "correct": "A",
+      "explanation": "Clouds affect Earth's radiation budget."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What is ASR in CERES data?",
+      "options": [
+        "A) Absorbed Solar Radiation",
+        "B) Atmospheric Sounding Radar",
+        "C) Advanced Satellite Receiver",
+        "D) Air Speed Ratio"
+      ],
+      "correct": "A",
+      "explanation": "ASR is Absorbed Solar Radiation."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What is ETR?",
+      "options": [
+        "A) Emitted Thermal Radiation",
+        "B) Earth Temperature Ratio",
+        "C) Energy Transfer Rate",
+        "D) Emission Tracking Radar"
+      ],
+      "correct": "A",
+      "explanation": "ETR is Emitted Thermal Radiation."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "How does CERES support solar energy systems?",
+      "options": [
+        "A) Performance assessment",
+        "B) Panel manufacturing",
+        "C) Battery storage",
+        "D) Wiring installation"
+      ],
+      "correct": "A",
+      "explanation": "CERES assesses photovoltaic array performance."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What discovery about Arctic from CERES?",
+      "options": [
+        "A) Declining sea-ice leading to more ASR",
+        "B) Increasing penguins",
+        "C) New islands",
+        "D) Warmer penguins"
+      ],
+      "correct": "A",
+      "explanation": "Declining sea-ice increases absorbed solar radiation in Arctic."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What is a change in ADRE over US and Europe?",
+      "options": [
+        "A) Increases",
+        "B) Decreases",
+        "C) Stable",
+        "D) Unknown"
+      ],
+      "correct": "A",
+      "explanation": "Increases in ADRE over US and Europe (reduced aerosol reflection)."
+    },
+    {
+      "phase": "CERES – Earth's Energy Balance",
+      "question": "What website provides CERES solar data?",
+      "options": [
+        "A) POWER.larc.nasa.gov",
+        "B) Terra.nasa.gov",
+        "C) Google.com",
+        "D) Wikipedia.org"
+      ],
+      "correct": "A",
+      "explanation": "POWER web site for solar data."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What does MISR stand for?",
+      "options": [
+        "A) Multi-angle Imaging SpectroRadiometer",
+        "B) Multi-Instrument Satellite Radar",
+        "C) Mission Imaging Spectral Recorder",
+        "D) Multi-Spectral Infrared Sensor"
+      ],
+      "correct": "A",
+      "explanation": "MISR is Multi-angle Imaging SpectroRadiometer."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "How many angles does MISR view Earth at?",
+      "options": [
+        "A) 5",
+        "B) 9",
+        "C) 3",
+        "D) 12"
+      ],
+      "correct": "B",
+      "explanation": "MISR views at 9 widely spaced angles."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What does MISR provide accurate measures of?",
+      "options": [
+        "A) Brightness, contrast, color of reflected sunlight",
+        "B) Earth's core temperature",
+        "C) Ocean currents speed",
+        "D) Atmospheric pressure"
+      ],
+      "correct": "A",
+      "explanation": "Measures brightness, contrast, and color of sunlight reflection."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What technique does MISR use for 3-D models?",
+      "options": [
+        "A) Stereoscopic",
+        "B) Radar",
+        "C) Lidar",
+        "D) Sonar"
+      ],
+      "correct": "A",
+      "explanation": "Uses stereoscopic techniques for 3-D modeling."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What does MISR distinguish?",
+      "options": [
+        "A) Aerosols, clouds, land covers",
+        "B) Planets, stars",
+        "C) Animals, plants",
+        "D) Cars, buildings"
+      ],
+      "correct": "A",
+      "explanation": "Distinguishes types of aerosols, clouds, and land surfaces."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What is unique about MISR?",
+      "options": [
+        "A) First such instrument in space",
+        "B) Largest satellite",
+        "C) Fastest orbiting",
+        "D) Heaviest instrument"
+      ],
+      "correct": "A",
+      "explanation": "No similar instrument has flown in space before."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What impacts does MISR study?",
+      "options": [
+        "A) Atmospheric particles and clouds on climate",
+        "B) Economic impacts",
+        "C) Social impacts",
+        "D) Political impacts"
+      ],
+      "correct": "A",
+      "explanation": "Studies impacts of aerosols and clouds on climate."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What coverage does MISR provide?",
+      "options": [
+        "A) Global with high spatial detail",
+        "B) Only polar",
+        "C) Only equatorial",
+        "D) Only oceanic"
+      ],
+      "correct": "A",
+      "explanation": "Ongoing global coverage with high detail."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What does MISR estimate?",
+      "options": [
+        "A) Sunlight reflected by environments",
+        "B) Earth's age",
+        "C) Moon distance",
+        "D) Star brightness"
+      ],
+      "correct": "A",
+      "explanation": "Estimates total sunlight reflected by Earth's environments."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What partitioning does MISR inform on?",
+      "options": [
+        "A) Energy and carbon between land and atmosphere",
+        "B) Water in oceans",
+        "C) Rocks in mountains",
+        "D) Air in balloons"
+      ],
+      "correct": "A",
+      "explanation": "Partitioning of energy and carbon."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "How is MISR imagery calibrated?",
+      "options": [
+        "A) Carefully for accuracy",
+        "B) Automatically",
+        "C) Manually on ground",
+        "D) Not calibrated"
+      ],
+      "correct": "A",
+      "explanation": "Imagery is carefully calibrated."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What scale does MISR analyze climate impacts?",
+      "options": [
+        "A) Regional and global",
+        "B) Local only",
+        "C) National only",
+        "D) Continental only"
+      ],
+      "correct": "A",
+      "explanation": "Regional and global impacts."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What changes does MISR detect in reflection?",
+      "options": [
+        "A) At different view angles",
+        "B) Over time only",
+        "C) In color only",
+        "D) In brightness only"
+      ],
+      "correct": "A",
+      "explanation": "Changes in reflection at different angles."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What is MISR's role in climate studies?",
+      "options": [
+        "A) Analyzing energy and carbon",
+        "B) Predicting weather",
+        "C) Mapping roads",
+        "D) Counting stars"
+      ],
+      "correct": "A",
+      "explanation": "Studies Earth's climate including energy partitioning."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "Does MISR provide data on aerosols?",
+      "options": [
+        "A) Yes, types and impacts",
+        "B) No",
+        "C) Only size",
+        "D) Only color"
+      ],
+      "correct": "A",
+      "explanation": "Provides data on different types of aerosols."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What is a key MISR discovery?",
+      "options": [
+        "A) Aerosol effects on clouds",
+        "B) New species",
+        "C) Hidden treasures",
+        "D) Lost cities"
+      ],
+      "correct": "A",
+      "explanation": "Discovered regional aerosol impacts on climate."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "How does MISR view the Earth?",
+      "options": [
+        "A) Sunlit simultaneously",
+        "B) At night",
+        "C) Underwater",
+        "D) From ground"
+      ],
+      "correct": "A",
+      "explanation": "Views sunlit Earth at multiple angles."
+    },
+    {
+      "phase": "MISR – Multi-Angle Observations",
+      "question": "What forms does MISR distinguish?",
+      "options": [
+        "A) Cloud forms",
+        "B) Rock forms",
+        "C) Animal forms",
+        "D) Plant forms"
+      ],
+      "correct": "A",
+      "explanation": "Distinguishes different cloud forms."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What does MOPITT stand for?",
+      "options": [
+        "A) Measurements of Pollution in the Troposphere",
+        "B) Modular Orbital Pollution Imaging Tracking Tool",
+        "C) Multi-Objective Pollution Infrared Thermal Tracker",
+        "D) Mission for Observing Planetary Internal Temperature Trends"
+      ],
+      "correct": "A",
+      "explanation": "MOPITT is Measurements of Pollution in the Troposphere."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What does MOPITT measure?",
+      "options": [
+        "A) Carbon monoxide (CO)",
+        "B) Oxygen",
+        "C) Nitrogen",
+        "D) Helium"
+      ],
+      "correct": "A",
+      "explanation": "Measures CO volume mixing ratio and total column."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What radiation does MOPITT use?",
+      "options": [
+        "A) Near-infrared and thermal-infrared",
+        "B) Ultraviolet",
+        "C) X-ray",
+        "D) Gamma ray"
+      ],
+      "correct": "A",
+      "explanation": "Uses 2.3 µm NIR and 4.7 µm TIR."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "When did MOPITT cease data collection?",
+      "options": [
+        "A) April 9, 2025",
+        "B) December 18, 1999",
+        "C) January 1, 2000",
+        "D) Ongoing"
+      ],
+      "correct": "A",
+      "explanation": "Powered off on April 9, 2025, due to power limitations."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What is MOPITT's spatial coverage?",
+      "options": [
+        "A) Global, 90°S to 90°N",
+        "B) Only equator",
+        "C) Only poles",
+        "D) Only oceans"
+      ],
+      "correct": "A",
+      "explanation": "Global coverage from 90°S to 90°N."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "Who funded MOPITT?",
+      "options": [
+        "A) Canadian Space Agency",
+        "B) NASA",
+        "C) JAXA",
+        "D) ESA"
+      ],
+      "correct": "A",
+      "explanation": "Funded by Canadian Space Agency's Space Science Division."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What data products does MOPITT provide?",
+      "options": [
+        "A) Gridded daily and monthly CO means",
+        "B) Temperature maps",
+        "C) Wind speeds",
+        "D) Rainfall amounts"
+      ],
+      "correct": "A",
+      "explanation": "Provides gridded CO data in various versions."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What is a key MOPITT application?",
+      "options": [
+        "A) Air quality research",
+        "B) Space travel",
+        "C) Underwater exploration",
+        "D) Astronomy"
+      ],
+      "correct": "A",
+      "explanation": "Supports atmospheric chemistry and air quality studies."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What discovery from MOPITT on wildfires?",
+      "options": [
+        "A) New seasonal patterns from North American fires",
+        "B) No impact",
+        "C) Decreased CO",
+        "D) Increased oxygen"
+      ],
+      "correct": "A",
+      "explanation": "New patterns of pollution from wildfires (Buchholz et al., 2020)."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What temporal coverage for MOPITT V009?",
+      "options": [
+        "A) 2000-03-03 to 2025-03-01",
+        "B) 1999-12-18 to 2000",
+        "C) 2010-2020",
+        "D) 2025 onward"
+      ],
+      "correct": "A",
+      "explanation": "Data from 2000-03-03 to 2025-03-01."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "Does MOPITT measure methane?",
+      "options": [
+        "A) No plans to release",
+        "B) Yes, daily",
+        "C) Only seasonally",
+        "D) In future"
+      ],
+      "correct": "A",
+      "explanation": "No current plans for methane product."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What is MOPITT's discipline?",
+      "options": [
+        "A) Tropospheric composition",
+        "B) Stratospheric",
+        "C) Mesospheric",
+        "D) Ionospheric"
+      ],
+      "correct": "A",
+      "explanation": "Focuses on tropospheric composition."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What publication evaluated MOPITT retrievals?",
+      "options": [
+        "A) Martínez-Alonso et al., 2022",
+        "B) Buchholz et al., 2020",
+        "C) Zheng et al., 2020",
+        "D) Daskalakis et al., 2022"
+      ],
+      "correct": "A",
+      "explanation": "Evaluation using ground-based data."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What does MOPITT track in atmosphere?",
+      "options": [
+        "A) CO budgets",
+        "B) Water vapor",
+        "C) Dust particles",
+        "D) Clouds"
+      ],
+      "correct": "A",
+      "explanation": "Global atmospheric CO budgets (Zheng et al., 2020)."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What impact of biomass burning studied by MOPITT?",
+      "options": [
+        "A) On remote troposphere",
+        "B) On oceans",
+        "C) On space",
+        "D) On moon"
+      ],
+      "correct": "A",
+      "explanation": "Impacts on remote tropospheric composition (Daskalakis et al., 2022)."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "When was MOPITT moved to safe mode?",
+      "options": [
+        "A) February 4, 2025",
+        "B) January 17, 2025",
+        "C) April 9, 2025",
+        "D) December 18, 1999"
+      ],
+      "correct": "A",
+      "explanation": "Moved to safe mode on February 4, 2025."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What consortium built MOPITT?",
+      "options": [
+        "A) Canadian companies",
+        "B) American",
+        "C) European",
+        "D) Asian"
+      ],
+      "correct": "A",
+      "explanation": "Built by Canadian consortium."
+    },
+    {
+      "phase": "MOPITT – Air Pollution Tracking",
+      "question": "What versions are available for MOPITT data?",
+      "options": [
+        "A) V009 and V109",
+        "B) V1 only",
+        "C) V10",
+        "D) No versions"
+      ],
+      "correct": "A",
+      "explanation": "Versions like V009 and V109 for different products."
+    }
+  ]

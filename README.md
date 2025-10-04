@@ -141,7 +141,63 @@ NEXT_PUBLIC_AI_MODEL_URL=http://localhost:5000
 
 ## 🎯 Running the Complete Project
 
-To run the entire project, you need to start all three components in the following order:
+To run the entire project, you need to start all three components. You can do this in two ways:
+
+### ⚡ Quick Start - Run All Projects in Parallel (Recommended)
+
+The easiest way to run all three projects is to open **multiple terminal windows/tabs** and run each component simultaneously:
+
+#### **Terminal 1: MongoDB**
+```bash
+# Windows (if MongoDB is installed as a service)
+net start MongoDB
+
+# macOS (using Homebrew)
+brew services start mongodb-community
+
+# Linux
+sudo systemctl start mongod
+```
+
+#### **Terminal 2: AI Model (Python)**
+```bash
+cd ai-model
+# Activate virtual environment
+venv\Scripts\activate  # Windows
+# OR
+source venv/bin/activate  # macOS/Linux
+
+# Run the AI model
+python app.py
+```
+> Keep this terminal running. The AI model will be available at `http://localhost:5000` (or configured port)
+
+#### **Terminal 3: Backend (Node.js)**
+```bash
+cd backend
+npm run dev
+```
+> Keep this terminal running. Backend API will be available at `http://localhost:3001`
+
+#### **Terminal 4: Frontend (Next.js)**
+```bash
+cd Nasa-2025
+npm run dev
+```
+> Keep this terminal running. Frontend will be available at `http://localhost:3000`
+
+#### **Access the Application**
+Once all three services are running, open your browser and navigate to:
+- **Frontend Application**: http://localhost:3000
+- **Backend API**: http://localhost:3001
+- **AI Model**: http://localhost:5000
+- **API Documentation (Swagger)**: http://localhost:3001/api-docs
+
+---
+
+### 📝 Alternative: Step-by-Step Sequential Startup
+
+If you prefer to start services one at a time and verify each is working:
 
 ### Step 1: Start MongoDB
 
@@ -168,6 +224,8 @@ source venv/bin/activate  # macOS/Linux
 python app.py
 ```
 
+✅ **Wait until you see:** AI model server starting message (e.g., "Running on http://127.0.0.1:5000")
+
 ### Step 3: Start the Backend
 
 Open a new terminal window:
@@ -177,7 +235,7 @@ cd backend
 npm run dev
 ```
 
-Wait until you see: `Server running on port 3001`
+✅ **Wait until you see:** `Server running on port 3001`
 
 ### Step 4: Start the Frontend
 
@@ -188,9 +246,106 @@ cd Nasa-2025
 npm run dev
 ```
 
+✅ **Wait until you see:** `Ready - started server on 0.0.0.0:3000`
+
 ### Step 5: Access the Application
 
 Open your browser and navigate to: **http://localhost:3000**
+
+---
+
+### 🖥️ Using Windows Terminal (Recommended for Windows Users)
+
+If you're using **Windows Terminal**, you can split panes to run all services in one window:
+
+1. Open Windows Terminal
+2. Split into 4 panes (Right-click → Split Pane or use `Alt+Shift++` and `Alt+Shift+-`)
+3. In each pane, navigate to the project root and run:
+   - **Pane 1**: `cd ai-model && venv\Scripts\activate && python app.py`
+   - **Pane 2**: `cd backend && npm run dev`
+   - **Pane 3**: `cd Nasa-2025 && npm run dev`
+   - **Pane 4**: Keep for commands/monitoring
+
+---
+
+### 🍎 Using iTerm2 or Terminal (macOS/Linux)
+
+For macOS users with **iTerm2** or standard **Terminal**:
+
+1. Open iTerm2/Terminal
+2. Create multiple tabs (`Cmd+T` for new tab)
+3. In each tab, navigate and run:
+   - **Tab 1**: `cd ai-model && source venv/bin/activate && python app.py`
+   - **Tab 2**: `cd backend && npm run dev`
+   - **Tab 3**: `cd Nasa-2025 && npm run dev`
+
+---
+
+### 🔄 Using Concurrent Processes (Advanced)
+
+You can also use tools like `concurrently` or `npm-run-all` to run multiple npm scripts in parallel.
+
+#### Option 1: Install concurrently in the root
+```bash
+# In the project root
+npm install -g concurrently
+
+# Create a start script that runs all services
+concurrently "cd backend && npm run dev" "cd Nasa-2025 && npm run dev"
+```
+
+#### Option 2: Create a root package.json
+Create a `package.json` in the project root:
+
+```json
+{
+  "name": "spatuim-root",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd Nasa-2025 && npm run dev",
+    "dev:all": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "install:all": "cd backend && npm install && cd ../Nasa-2025 && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
+```
+
+Then run:
+```bash
+npm install
+npm run dev:all
+```
+
+> **Note:** You'll still need to run the AI model separately in its own terminal.
+
+---
+
+### ✅ Verification Checklist
+
+Before testing the application, ensure all services are running:
+
+- [ ] **MongoDB** is running (check with `mongod --version`)
+- [ ] **AI Model** is running on port 5000 (or configured port)
+- [ ] **Backend** is running on port 3001
+- [ ] **Frontend** is running on port 3000
+- [ ] No error messages in any terminal
+- [ ] You can access http://localhost:3000 in your browser
+
+---
+
+### 🛑 Stopping All Services
+
+To stop all services gracefully:
+
+1. In each terminal window, press `Ctrl+C` to stop the service
+2. For MongoDB:
+   - **Windows**: `net stop MongoDB`
+   - **macOS**: `brew services stop mongodb-community`
+   - **Linux**: `sudo systemctl stop mongod`
+3. Deactivate Python virtual environment: `deactivate`
 
 ---
 
