@@ -10,6 +10,7 @@ import {
   FaHeart,
   FaBehance,
   FaFacebook,
+  FaFolderOpen,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -25,6 +26,7 @@ export default function Footer() {
       role: "Backend Developer",
       linkedin: "https://www.linkedin.com/in/mohammed-aboellil-628360296/",
       github: "https://github.com/aboellil0",
+      portfolio: "https://aboellil.vercel.app/",
     },
     {
       name: "Ziad Sheashaa",
@@ -32,6 +34,7 @@ export default function Footer() {
       linkedin: "https://www.linkedin.com/in/ziad-sheashaa-89797b15b/",
       github: "https://github.com/ZiadMD",
       facebook: "https://www.facebook.com/ziad.mohamed.gamal.792281",
+      portfolio: "https://ziadmd.github.io/Portfolio-v.2/",
     },
     {
       name: "Mariam Ahmed",
@@ -46,6 +49,7 @@ export default function Footer() {
       linkedin: "https://www.linkedin.com/in/youseif-elshreif/",
       github: "https://github.com/youseif-elshreif",
       facebook: "https://www.facebook.com/youseifelshreif",
+      portfolio: "https://extraordinary-mermaid-1eeebb.netlify.app/",
     },
   ];
 
@@ -166,6 +170,17 @@ export default function Footer() {
                         aria-label={`${member.name} Facebook`}
                       >
                         <FaFacebook className="text-lg" />
+                      </Link>
+                    )}
+                    {member.portfolio && (
+                      <Link
+                        href={member.portfolio}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-blue-400 transition-colors duration-300 p-1"
+                        aria-label={`${member.name} Portfolio`}
+                      >
+                        <FaFolderOpen className="text-lg" />
                       </Link>
                     )}
                   </div>
