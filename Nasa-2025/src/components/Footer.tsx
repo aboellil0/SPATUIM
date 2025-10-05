@@ -8,6 +8,8 @@ import {
   FaRocket,
   FaSatellite,
   FaHeart,
+  FaBehance,
+  FaFacebook,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -15,26 +17,35 @@ export default function Footer() {
     {
       name: "Ammar Soliman",
       role: "Project Lead, Video Editor",
-      linkedin: "https://linkedin.com/in/ammar-soliman",
-      github: "https://github.com/ammar-soliman",
+      linkedin: "https://www.linkedin.com/in/ammar-salman-1a4540336/",
+      facebook: "https://www.facebook.com/ammar.salman.314822",
+    },
+    {
+      name: "Mohamed Aboellil",
+      role: "Backend Developer",
+      linkedin: "https://www.linkedin.com/in/mohammed-aboellil-628360296/",
+      github: "https://github.com/aboellil0",
+    },
+    {
+      name: "Ziad Sheashaa",
+      role: "AI Specialist",
+      linkedin: "https://www.linkedin.com/in/ziad-sheashaa-89797b15b/",
+      github: "https://github.com/ZiadMD",
+      facebook: "https://www.facebook.com/ziad.mohamed.gamal.792281",
+    },
+    {
+      name: "Mariam Ahmed",
+      role: "AI Specialist",
+      linkedin: "https://www.linkedin.com/in/mariam-ahmed-kamal-13181b332",
+      github: "https://github.com/mariam416",
+      behance: "https://www.behance.net/mariamahmed289",
     },
     {
       name: "Youseif Elshreif",
       role: "Frontend Developer",
-      linkedin: "https://linkedin.com/in/youseif-elshreif",
+      linkedin: "https://www.linkedin.com/in/youseif-elshreif/",
       github: "https://github.com/youseif-elshreif",
-    },
-    {
-      name: "Mohamed Abo Ellail",
-      role: "Backend Developer",
-      linkedin: "https://linkedin.com/in/mohamed-abo-ellail",
-      github: "https://github.com/mohamed-abo-ellail",
-    },
-    {
-      name: "Ziad Sheashe",
-      role: "AI Specialist",
-      linkedin: "https://linkedin.com/in/ziad-sheashe",
-      github: "https://github.com/ziad-sheashe",
+      facebook: "https://www.facebook.com/youseifelshreif",
     },
   ];
 
@@ -89,7 +100,7 @@ export default function Footer() {
                 <li key={index}>
                   <Link
                     href={link.href}
-                    className="text-gray-300 hover:text-white transition-colors duration-300 hover:translate-x-1 transform inline-block"
+                    className="text-gray-300 hover:text-white transition-all duration-300 transform hover:translate-x-1 inline-block"
                   >
                     {link.name}
                   </Link>
@@ -124,15 +135,39 @@ export default function Footer() {
                     >
                       <FaLinkedin className="text-lg" />
                     </Link>
-                    <Link
-                      href={member.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-white transition-colors duration-300 p-1"
-                      aria-label={`${member.name} GitHub`}
-                    >
-                      <FaGithub className="text-lg" />
-                    </Link>
+                    {member.github && (
+                      <Link
+                        href={member.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-blue-400 transition-colors duration-300 p-1"
+                        aria-label={`${member.name} GitHub`}
+                      >
+                        <FaGithub className="text-lg" />
+                      </Link>
+                    )}
+                    {member.behance && (
+                      <Link
+                        href={member.behance}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-blue-400 transition-colors duration-300 p-1"
+                        aria-label={`${member.name} Behance`}
+                      >
+                        <FaBehance className="text-lg" />
+                      </Link>
+                    )}
+                    {member.facebook && (
+                      <Link
+                        href={member.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-400 hover:text-blue-400 transition-colors duration-300 p-1"
+                        aria-label={`${member.name} Facebook`}
+                      >
+                        <FaFacebook className="text-lg" />
+                      </Link>
+                    )}
                   </div>
                 </div>
               ))}

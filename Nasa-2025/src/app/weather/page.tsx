@@ -3,7 +3,15 @@
 import { useEffect, useState } from "react";
 import { getAllWeatherData, type PowerApiResponse } from "@/lib/nasa-power-api";
 import WeatherChart from "@/components/WeatherChart";
-import { FaTemperatureHigh, FaTint, FaWind, FaSun, FaSpinner, FaMapMarkerAlt, FaCalendar } from "react-icons/fa";
+import {
+  FaTemperatureHigh,
+  FaTint,
+  FaWind,
+  FaSun,
+  FaSpinner,
+  FaMapMarkerAlt,
+  FaCalendar,
+} from "react-icons/fa";
 
 interface WeatherStats {
   temperature: { avg: number; min: number; max: number };
@@ -29,7 +37,9 @@ export default function WeatherPage() {
         const tempValues = Object.values(data.properties.parameter.T2M || {});
         const humidValues = Object.values(data.properties.parameter.RH2M || {});
         const windValues = Object.values(data.properties.parameter.WS10M || {});
-        const solarValues = Object.values(data.properties.parameter.ALLSKY_SFC_SW_DWN || {});
+        const solarValues = Object.values(
+          data.properties.parameter.ALLSKY_SFC_SW_DWN || {}
+        );
 
         setStats({
           temperature: {
@@ -54,7 +64,9 @@ export default function WeatherPage() {
           },
         });
       } catch (err) {
-        setError(err instanceof Error ? err.message : "Failed to fetch weather data");
+        setError(
+          err instanceof Error ? err.message : "Failed to fetch weather data"
+        );
       } finally {
         setLoading(false);
       }
@@ -67,7 +79,7 @@ export default function WeatherPage() {
     const entries = Object.entries(parameterData);
     // Sample data to show monthly averages instead of all hourly data
     const dailyAverages: { [date: string]: number[] } = {};
-    
+
     entries.forEach(([timestamp, value]) => {
       const date = timestamp.substring(0, 8); // YYYYMMDD
       if (!dailyAverages[date]) {
@@ -81,7 +93,9 @@ export default function WeatherPage() {
         date: `${date.substring(4, 6)}/${date.substring(6, 8)}`,
         value: values.reduce((a, b) => a + b, 0) / values.length,
       }))
-      .filter((_, index, array) => index % 3 === 0 || index === array.length - 1); // Show every 3rd day
+      .filter(
+        (_, index, array) => index % 3 === 0 || index === array.length - 1
+      ); // Show every 3rd day
   };
 
   if (loading) {
@@ -89,8 +103,12 @@ export default function WeatherPage() {
       <div className="min-h-screen bg-gradient-to-br from-black via-[#0a1428] to-[#0b1a2a] flex items-center justify-center">
         <div className="text-center">
           <FaSpinner className="text-6xl text-blue-400 animate-spin mx-auto mb-4" />
-          <p className="text-white text-xl">Loading Weather Data from NASA POWER API...</p>
-          <p className="text-gray-400 mt-2">Fetching data from October 2024 to October 2025</p>
+          <p className="text-white text-xl">
+            Loading Weather Data from NASA POWER API...
+          </p>
+          <p className="text-gray-400 mt-2">
+            Fetching data from October 2024 to October 2025
+          </p>
         </div>
       </div>
     );
@@ -101,7 +119,9 @@ export default function WeatherPage() {
       <div className="min-h-screen bg-gradient-to-br from-black via-[#0a1428] to-[#0b1a2a] flex items-center justify-center">
         <div className="text-center max-w-md">
           <div className="text-red-400 text-6xl mb-4">⚠️</div>
-          <h2 className="text-white text-2xl font-bold mb-2">Error Loading Data</h2>
+          <h2 className="text-white text-2xl font-bold mb-2">
+            Error Loading Data
+          </h2>
           <p className="text-gray-400">{error}</p>
         </div>
       </div>
@@ -115,8 +135,11 @@ export default function WeatherPage() {
       {/* Background Effects */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(255,255,255,0.1),_transparent_70%)] animate-pulse"></div>
-        <div className="absolute w-[600px] h-[600px] bg-gradient-to-r from-purple-600/20 via-blue-500/15 to-indigo-600/20 blur-3xl rounded-full top-10 left-10 animate-pulse"></div>
-        <div className="absolute w-[500px] h-[500px] bg-gradient-to-r from-blue-500/15 via-cyan-500/10 to-purple-600/15 blur-3xl rounded-full bottom-20 right-10 animate-pulse" style={{ animationDelay: "2s" }}></div>
+        <div className="absolute w-[250px] h-[600px] bg-gradient-to-r from-purple-600/20 via-blue-500/15 to-indigo-600/20 blur-3xl rounded-full top-10 left-10 animate-pulse"></div>
+        <div
+          className="absolute w-[500px] h-[500px] bg-gradient-to-r from-blue-500/15 via-cyan-500/10 to-purple-600/15 blur-3xl rounded-full bottom-20 right-10 animate-pulse"
+          style={{ animationDelay: "2s" }}
+        ></div>
       </div>
 
       {/* Content */}
@@ -131,7 +154,7 @@ export default function WeatherPage() {
           <p className="text-gray-300 text-lg mb-6">
             NASA POWER API - Historical Weather Analysis
           </p>
-          
+
           <div className="flex flex-wrap justify-center gap-4 text-sm">
             <div className="flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg">
               <FaMapMarkerAlt className="text-blue-400" />
@@ -153,57 +176,88 @@ export default function WeatherPage() {
               <h3 className="text-xl font-bold">Temperature</h3>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-red-300">{stats.temperature.avg.toFixed(1)}°C</div>
+              <div className="text-3xl font-bold text-red-300">
+                {stats.temperature.avg.toFixed(1)}°C
+              </div>
               <div className="text-sm text-gray-400">
-                <span className="text-red-200">Max: {stats.temperature.max.toFixed(1)}°C</span>
+                <span className="text-red-200">
+                  Max: {stats.temperature.max.toFixed(1)}°C
+                </span>
                 <span className="mx-2">|</span>
-                <span className="text-blue-200">Min: {stats.temperature.min.toFixed(1)}°C</span>
+                <span className="text-blue-200">
+                  Min: {stats.temperature.min.toFixed(1)}°C
+                </span>
               </div>
             </div>
           </div>
 
           {/* Humidity Card */}
-          <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 border border-white/10 hover:scale-105 transition-all duration-300 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+          <div
+            className="bg-white/5 backdrop-blur-md rounded-xl p-6 border border-white/10 hover:scale-105 transition-all duration-300 animate-fade-in"
+            style={{ animationDelay: "0.1s" }}
+          >
             <div className="flex items-center gap-3 mb-4">
               <FaTint className="text-3xl text-blue-400" />
               <h3 className="text-xl font-bold">Humidity</h3>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-300">{stats.humidity.avg.toFixed(1)}%</div>
+              <div className="text-3xl font-bold text-blue-300">
+                {stats.humidity.avg.toFixed(1)}%
+              </div>
               <div className="text-sm text-gray-400">
-                <span className="text-blue-200">Max: {stats.humidity.max.toFixed(1)}%</span>
+                <span className="text-blue-200">
+                  Max: {stats.humidity.max.toFixed(1)}%
+                </span>
                 <span className="mx-2">|</span>
-                <span className="text-cyan-200">Min: {stats.humidity.min.toFixed(1)}%</span>
+                <span className="text-cyan-200">
+                  Min: {stats.humidity.min.toFixed(1)}%
+                </span>
               </div>
             </div>
           </div>
 
           {/* Wind Speed Card */}
-          <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 border border-white/10 hover:scale-105 transition-all duration-300 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <div
+            className="bg-white/5 backdrop-blur-md rounded-xl p-6 border border-white/10 hover:scale-105 transition-all duration-300 animate-fade-in"
+            style={{ animationDelay: "0.2s" }}
+          >
             <div className="flex items-center gap-3 mb-4">
               <FaWind className="text-3xl text-cyan-400" />
               <h3 className="text-xl font-bold">Wind Speed</h3>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-cyan-300">{stats.windSpeed.avg.toFixed(1)} m/s</div>
+              <div className="text-3xl font-bold text-cyan-300">
+                {stats.windSpeed.avg.toFixed(1)} m/s
+              </div>
               <div className="text-sm text-gray-400">
-                <span className="text-cyan-200">Max: {stats.windSpeed.max.toFixed(1)} m/s</span>
+                <span className="text-cyan-200">
+                  Max: {stats.windSpeed.max.toFixed(1)} m/s
+                </span>
                 <span className="mx-2">|</span>
-                <span className="text-teal-200">Min: {stats.windSpeed.min.toFixed(1)} m/s</span>
+                <span className="text-teal-200">
+                  Min: {stats.windSpeed.min.toFixed(1)} m/s
+                </span>
               </div>
             </div>
           </div>
 
           {/* Solar Irradiance Card */}
-          <div className="bg-white/5 backdrop-blur-md rounded-xl p-6 border border-white/10 hover:scale-105 transition-all duration-300 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+          <div
+            className="bg-white/5 backdrop-blur-md rounded-xl p-6 border border-white/10 hover:scale-105 transition-all duration-300 animate-fade-in"
+            style={{ animationDelay: "0.3s" }}
+          >
             <div className="flex items-center gap-3 mb-4">
               <FaSun className="text-3xl text-yellow-400" />
               <h3 className="text-xl font-bold">Solar</h3>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-yellow-300">{stats.solarIrradiance.avg.toFixed(0)} Wh/m²</div>
+              <div className="text-3xl font-bold text-yellow-300">
+                {stats.solarIrradiance.avg.toFixed(0)} Wh/m²
+              </div>
               <div className="text-sm text-gray-400">
-                <span className="text-yellow-200">Max: {stats.solarIrradiance.max.toFixed(0)} Wh/m²</span>
+                <span className="text-yellow-200">
+                  Max: {stats.solarIrradiance.max.toFixed(0)} Wh/m²
+                </span>
               </div>
             </div>
           </div>
@@ -218,7 +272,10 @@ export default function WeatherPage() {
               title="Temperature (°C) - Daily Average"
               color="#f87171"
               unit="°C"
-              gradient={["rgba(248, 113, 113, 0.5)", "rgba(248, 113, 113, 0.1)"]}
+              gradient={[
+                "rgba(248, 113, 113, 0.5)",
+                "rgba(248, 113, 113, 0.1)",
+              ]}
             />
           </div>
 
@@ -247,7 +304,9 @@ export default function WeatherPage() {
           {/* Solar Irradiance Chart */}
           <div className="animate-fade-in" style={{ animationDelay: "0.7s" }}>
             <WeatherChart
-              data={processChartData(weatherData.properties.parameter.ALLSKY_SFC_SW_DWN)}
+              data={processChartData(
+                weatherData.properties.parameter.ALLSKY_SFC_SW_DWN
+              )}
               title="Solar Irradiance (Wh/m²) - Daily Average"
               color="#fbbf24"
               unit="Wh/m²"
@@ -257,9 +316,17 @@ export default function WeatherPage() {
         </div>
 
         {/* Data Source Info */}
-        <div className="mt-12 text-center text-gray-400 text-sm animate-fade-in" style={{ animationDelay: "0.8s" }}>
-          <p>Data Source: NASA POWER API (Prediction Of Worldwide Energy Resources)</p>
-          <p className="mt-2">Source: {weatherData.header.sources.join(", ")}</p>
+        <div
+          className="mt-12 text-center text-gray-400 text-sm animate-fade-in"
+          style={{ animationDelay: "0.8s" }}
+        >
+          <p>
+            Data Source: NASA POWER API (Prediction Of Worldwide Energy
+            Resources)
+          </p>
+          <p className="mt-2">
+            Source: {weatherData.header.sources.join(", ")}
+          </p>
           <p className="mt-1">API Version: {weatherData.header.api.version}</p>
         </div>
       </div>
